@@ -1,0 +1,306 @@
+{
+  "bindobjects": [
+    {
+      "name": "ec_mother_details",
+      "columns": [
+        {
+          "column_name": "base_entity_id",
+          "type": "Client",
+          "json_mapping": {
+            "field": "baseEntityId"
+          }
+        },
+        {
+          "column_name": "phone_number",
+          "type": "Client",
+          "json_mapping": {
+            "field": "attributes.phone_number"
+          }
+        },
+        {
+          "column_name": "document_type",
+          "type": "Event",
+          "json_mapping": {
+            "field": "obs.fieldCode",
+            "concept": "document_type"
+          }
+        },
+        {
+          "column_name": "passport_id",
+          "type": "Event",
+          "json_mapping": {
+            "field": "obs.fieldCode",
+            "concept": "passport_id"
+          }
+        },
+        {
+          "column_name": "national_id",
+          "type": "Event",
+          "json_mapping": {
+            "field": "obs.fieldCode",
+            "concept": "national_id"
+          }
+        },
+        {
+          "column_name": "other_id",
+          "type": "Event",
+          "json_mapping": {
+            "field": "obs.fieldCode",
+            "concept": "other_id"
+          }
+        },
+        {
+          "column_name": "address_number",
+          "type": "Event",
+          "json_mapping": {
+            "field": "obs.fieldCode",
+            "concept": "address_number"
+          }
+        },
+        {
+          "column_name": "insurance",
+          "type": "Event",
+          "json_mapping": {
+            "field": "obs.fieldCode",
+            "concept": "insurance"
+          }
+        },
+        {
+          "column_name": "ubudehe_category",
+          "type": "Event",
+          "json_mapping": {
+            "field": "obs.fieldCode",
+            "concept": "ubudehe_category"
+          }
+        },
+        {
+          "column_name": "alt_name",
+          "type": "Event",
+          "json_mapping": {
+            "field": "obs.fieldCode",
+            "concept": "163258AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        },
+        {
+          "column_name": "alt_phone_number",
+          "type": "Client",
+          "json_mapping": {
+            "field": "attributes.alt_phone_number"
+          }
+        },
+        {
+          "column_name": "reminders",
+          "type": "Event",
+          "json_mapping": {
+            "field": "obs.fieldCode",
+            "concept": "163164AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        },
+        {
+          "column_name": "cohabitants",
+          "type": "Client",
+          "json_mapping": {
+            "field": "attributes.cohabitants"
+          }
+        },
+        {
+          "column_name": "alt_name",
+          "type": "Event",
+          "json_mapping": {
+            "field": "obs.fieldCode",
+            "concept": "163258AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        },
+        {
+          "column_name": "alt_phone_number",
+          "type": "Client",
+          "json_mapping": {
+            "field": "attributes.alt_phone_number"
+          }
+        },
+        {
+          "column_name": "edd",
+          "type": "Client",
+          "json_mapping": {
+            "field": "attributes.edd"
+          }
+        },
+        {
+          "column_name": "red_flag_count",
+          "type": "Client",
+          "json_mapping": {
+            "field": "attributes.red_flag_count"
+          }
+        },
+        {
+          "column_name": "yellow_flag_count",
+          "type": "Client",
+          "json_mapping": {
+            "field": "attributes.yellow_flag_count"
+          }
+        },
+        {
+          "column_name": "contact_status",
+          "type": "Client",
+          "json_mapping": {
+            "field": "attributes.contact_status"
+          }
+        },
+        {
+          "column_name": "previous_contact_status",
+          "type": "Client",
+          "json_mapping": {
+            "field": "attributes.previous_contact_status"
+          }
+        },
+        {
+          "column_name": "next_contact",
+          "type": "Client",
+          "json_mapping": {
+            "field": "attributes.next_contact"
+          }
+        },
+        {
+          "column_name": "team_name",
+          "type": "Client",
+          "json_mapping": {
+            "field": "attributes.team_name"
+          }
+        },
+        {
+          "column_name": "team_id",
+          "type": "Client",
+          "json_mapping": {
+            "field": "attributes.team_id"
+          }
+        },
+        {
+          "column_name": "next_contact_date",
+          "type": "Client",
+          "json_mapping": {
+            "field": "attributes.next_contact_date"
+          }
+        },
+        {
+          "column_name": "last_contact_record_date",
+          "type": "Client",
+          "json_mapping": {
+            "field": "attributes.last_contact_record_date"
+          }
+        },
+        {
+          "column_name": "province",
+          "type": "Client",
+          "json_mapping": {
+            "field": "attributes.province"
+          }
+        },
+        {
+          "column_name": "district",
+          "type": "Client",
+          "json_mapping": {
+            "field": "attributes.district"
+          }
+        },
+        {
+          "column_name": "sector",
+          "type": "Client",
+          "json_mapping": {
+            "field": "attributes.sector"
+          }
+
+        }
+        ,
+        {
+          "column_name": "cell",
+          "type": "Client",
+          "json_mapping": {
+            "field": "attributes.cell"
+          }
+        },
+        {
+          "column_name": "village",
+          "type": "Client",
+          "json_mapping": {
+            "field": "attributes.village"
+          }
+        },
+        {
+          "column_name": "visit_start_date",
+          "type": "Client",
+          "json_mapping": {
+            "field": "attributes.visit_start_date"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ec_client",
+      "columns": [
+        {
+          "column_name": "base_entity_id",
+          "type": "Client",
+          "json_mapping": {
+            "field": "baseEntityId"
+          }
+        },
+        {
+          "column_name": "register_id",
+          "type": "Client",
+          "json_mapping": {
+            "field": "identifiers.ANC_ID"
+          }
+        },
+        {
+          "column_name": "first_name",
+          "type": "Client",
+          "json_mapping": {
+            "field": "firstName"
+          }
+        },
+        {
+          "column_name": "last_name",
+          "type": "Client",
+          "json_mapping": {
+            "field": "lastName"
+          }
+        },
+        {
+          "column_name": "dob",
+          "type": "Client",
+          "json_mapping": {
+            "field": "birthdate"
+          }
+        },
+        {
+          "column_name": "dob_unknown",
+          "type": "Client",
+          "json_mapping": {
+            "field": "birthdateApprox"
+          }
+        },
+        {
+          "column_name": "last_interacted_with",
+          "type": "Event",
+          "json_mapping": {
+            "field": "version"
+          }
+        },
+        {
+          "column_name": "date_removed",
+          "type": "Client",
+          "json_mapping": {
+            "field": "attributes.date_removed"
+          }
+        },
+        {
+          "column_name": "home_address",
+          "type": "Client",
+          "json_mapping": {
+            "field": "addresses.address2"
+          }
+        }
+      ]
+    }
+  ]
+}
